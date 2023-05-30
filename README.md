@@ -1,5 +1,6 @@
 # Aerosoc-CubeSat
-This is the software component of a cube-satellite being developed by UTS Aerosoc
+This repository contains all of the relevant technical files for
+the UTS Aerosoc CubeSat project.
 
 The cube-sat project consists of multiple STM32 32-bit Arm Cortex MCUs
 that serve specific functions such as power management, RF communications,
