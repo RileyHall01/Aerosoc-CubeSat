@@ -1,0 +1,430 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "min_copper_edge_clearance": 0.0,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "layer_presets": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "CubeSat1.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      }
+    ],
+    "meta": {
+      "version": 2
+    },
+    "net_colors": null
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      ""
+    ],
+    [
+      "1d9385c0-ed4d-4591-9469-b0e24a2b3f72",
+      "PowerInputCircuit"
+    ],
+    [
+      "7f784d11-e39d-4e95-a915-e77e130ed7e1",
+      "Current Monitors"
+    ],
+    [
+      "c9ef002f-bc86-438e-a70a-902539271eae",
+      "CurrentMonitorCircuit"
+    ],
+    [
+      "5f171fde-ab3b-4350-b512-0141f2f4602d",
+      "CurrentMonitorCircuit1"
+    ],
+    [
+      "d6f93a4a-5551-42d8-8167-ca0736af1e24",
+      "CurrentMonitorCircuit2"
+    ],
+    [
+      "1fa3854b-1b6b-441a-bfff-fd4fceb3c498",
+      "CurrentMonitorCircuit3"
+    ],
+    [
+      "829bf26e-346a-4320-94e1-8c1c5a572efc",
+      "CurrentMonitorCircuit4"
+    ],
+    [
+      "c48cfe55-880c-4940-b913-aab476f94981",
+      "CurrentMonitorCircuit5"
+    ],
+    [
+      "4ec2c210-d75f-4a7d-b204-8b5eab092b4f",
+      "CurrentMonitorCircuit6"
+    ],
+    [
+      "4215bc29-9778-49c6-9fdf-fe3506f4fd6f",
+      "CurrentMonitorCircuit7"
+    ],
+    [
+      "e9e33423-746f-4d7b-9370-66ae53a44cb1",
+      "CurrentMonitorCircuit10"
+    ],
+    [
+      "3b41ddee-9dd1-40eb-920c-924ee4a5b581",
+      "CurrentMonitorCircuit11"
+    ],
+    [
+      "c29fcd3d-812e-46bc-b4d3-944ba5283260",
+      "CurrentMonitorCircuit12"
+    ],
+    [
+      "c1dc5e68-f44a-4d06-a1d9-4040ea36d630",
+      "CurrentMonitorCircuit13"
+    ],
+    [
+      "32511c9f-5c90-4929-a11c-cb2aab7a6da7",
+      "STM32L496RET6"
+    ],
+    [
+      "90e29a84-faaf-4245-a7b0-d5c3307add86",
+      "32khzOscillator"
+    ],
+    [
+      "bc1375fd-475c-4578-917c-ecd59d5524a6",
+      "MicroprocessorPower"
+    ],
+    [
+      "07b5b83e-5a89-423b-b397-e53d139c0c36",
+      "ButtonBattery"
+    ],
+    [
+      "a5dc60f5-4dae-480f-b57c-fa952b1af7cb",
+      "CurrentMonitorCircuit9"
+    ],
+    [
+      "fe8bebd7-9691-403f-a534-2c43e8974cf8",
+      "CurrentMonitorCircuit8"
+    ],
+    [
+      "6727ca80-4687-434a-849f-76a8c8b83b94",
+      "CurrentMonitorCircuit14"
+    ],
+    [
+      "0d7c5e5d-2f54-4936-94a3-37e6a37cd9b7",
+      "CurrentMonitorCircuit15"
+    ],
+    [
+      "2e76c3a8-bac5-4024-9705-7f3bc5914fbe",
+      "20PinConnector"
+    ],
+    [
+      "58f61d5a-d638-4b1a-b9f9-5972be6d6fba",
+      "USBInput"
+    ],
+    [
+      "a2c67058-00e4-454c-bf23-5e8a5244f767",
+      "SolarInput"
+    ],
+    [
+      "5711c394-e6f8-4cd7-a9c2-c36419d28a9c",
+      "MPPT"
+    ]
+  ],
+  "text_variables": {}
+}
