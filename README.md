@@ -32,3 +32,5 @@ designing and implementing the necessary algorithms, control logic, and
 communication protocols to ensure proper functionality and coordination
 of the various subsystems. Please note that this outline will certainly
 change with time as the scope of the project expands.
+
+Note: This project will be programmed in C++.
